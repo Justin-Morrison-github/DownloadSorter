@@ -1,0 +1,436 @@
+{
+    "01_First_Year": {
+        "FALL": {
+            "MATH1004": {
+                "name": "Calculus",
+                "crn": "34061",
+                "section": "D",
+                "folders": [
+                    "INFO",
+                    "LECTURE",
+                    "REVIEW",
+                    "PASS",
+                    "TEXTBOOK",
+                    "TUTORIAL",
+                    "LAB"
+                ]
+            },
+            "CHEM1101": {
+                "name": "Chemistry",
+                "crn": "30960",
+                "section": "B",
+                "folders": [
+                    "ASSIGNMENT",
+                    "INFO",
+                    "LAB",
+                    "LECTURE",
+                    "REVIEW"
+                ]
+            },
+            "ECOR1048": {
+                "name": "Dynamics",
+                "crn": "32327",
+                "section": "A",
+                "folders": [
+                    "ASSIGNMENT",
+                    "INFO",
+                    "LAB",
+                    "LECTURE",
+                    "REVIEW",
+                    "PASS",
+                    "TEXTBOOK",
+                    "TUTORIAL"
+                ]
+            },
+            "ECOR1055": {
+                "name": "Eng Disciplines",
+                "crn": "32342",
+                "section": "B",
+                "folders": [
+                    "INFO",
+                    "LECTURE"
+                ]
+            },
+            "ECOR1057": {
+                "name": "Eng Profession",
+                "crn": "32356",
+                "section": "D",
+                "folders": [
+                    "INFO",
+                    "LECTURE"
+                ]
+            },
+            "ECOR1046": {
+                "name": "Mechanics",
+                "crn": "32290",
+                "section": "C",
+                "folders": [
+                    "ASSIGNMENT",
+                    "INFO",
+                    "LAB",
+                    "LECTURE",
+                    "REVIEW",
+                    "PASS",
+                    "TEXTBOOK",
+                    "TUTORIAL"
+                ]
+            },
+            "ECOR1045": {
+                "name": "Statics",
+                "crn": "32262",
+                "section": "C",
+                "folders": [
+                    "ASSIGNMENT",
+                    "INFO",
+                    "LECTURE",
+                    "REVIEW",
+                    "PASS",
+                    "TEXTBOOK",
+                    "TUTORIAL"
+                ]
+            },
+            "PHYS1003": {
+                "name": "Thermodynamics",
+                "crn": "34789",
+                "section": "A",
+                "folders": [
+                    "INFO",
+                    "LAB",
+                    "LECTURE",
+                    "REVIEW",
+                    "TEXTBOOK",
+                    "TUTORIAL"
+                ]
+            },
+            "ECOR1047": {
+                "name": "Visual Communication",
+                "crn": "32301",
+                "section": "A",
+                "folders": [
+                    "ASSIGNMENT",
+                    "INFO",
+                    "LAB",
+                    "LECTURE",
+                    "REVIEW",
+                    "PASS",
+                    "TEXTBOOK",
+                    "TUTORIAL"
+                ]
+            }
+        },
+        "WINTER": {
+            "ECOR1043": {
+                "name": "Circuits",
+                "crn": "12141",
+                "section": "D",
+                "folders": [
+                    "ASSIGNMENT",
+                    "INFO",
+                    "LAB",
+                    "LECTURE",
+                    "REVIEW",
+                    "PASS",
+                    "TEXTBOOK",
+                    "TUTORIAL"
+                ]
+            },
+            "ECOR1042": {
+                "name": "Data Management",
+                "crn": "12121",
+                "section": "D",
+                "folders": [
+                    "ASSIGNMENT",
+                    "INFO",
+                    "LAB",
+                    "LECTURE",
+                    "REVIEW",
+                    "PASS",
+                    "TEXTBOOK",
+                    "TUTORIAL"
+                ]
+            },
+            "PHYS1004": {
+                "name": "Electromagnetism",
+                "crn": "14582",
+                "section": "A",
+                "folders": [
+                    "INFO",
+                    "LAB",
+                    "LECTURE",
+                    "REVIEW",
+                    "TEXTBOOK",
+                    "TUTORIAL"
+                ]
+            },
+            "ECOR1056": {
+                "name": "Eng Disciplines 2",
+                "crn": "12268",
+                "section": "D",
+                "folders": [
+                    "LAB",
+                    "LECTURE"
+                ]
+            },
+            "GEOG1020": {
+                "name": "Geography",
+                "crn": "12918",
+                "section": "B",
+                "folders": [
+                    "INFO",
+                    "LECTURE",
+                    "REVIEW",
+                    "TEXTBOOK",
+                    "TUTORIAL"
+                ]
+            },
+            "MATH1104": {
+                "name": "Linear Algebra",
+                "crn": "13977",
+                "section": "J",
+                "folders": [
+                    "INFO",
+                    "LECTURE",
+                    "REVIEW",
+                    "TEXTBOOK",
+                    "TUTORIAL"
+                ]
+            },
+            "ECOR1044": {
+                "name": "Mechatronics",
+                "crn": "12161",
+                "section": "D",
+                "folders": [
+                    "ASSIGNMENT",
+                    "INFO",
+                    "LAB",
+                    "LECTURE",
+                    "REVIEW",
+                    "PASS",
+                    "TEXTBOOK",
+                    "TUTORIAL"
+                ]
+            },
+            "ECOR1041": {
+                "name": "Programming",
+                "crn": "12101",
+                "section": "D",
+                "folders": [
+                    "ASSIGNMENT",
+                    "INFO",
+                    "LAB",
+                    "LECTURE",
+                    "REVIEW",
+                    "PASS",
+                    "TEXTBOOK",
+                    "TUTORIAL"
+                ]
+            }
+        }
+    },
+    "02_Second_Year": {
+        "FALL": {
+            "ELEC2501": {
+                "name": "Circuits and Signals",
+                "crn": "32413",
+                "section": "A",
+                "folders": [
+                    "ASSIGNMENT",
+                    "INFO",
+                    "LAB",
+                    "LECTURE",
+                    "REVIEW",
+                    "PASS",
+                    "TEXTBOOK",
+                    "TUTORIAL"
+                ]
+            },
+            "COOP1000": {
+                "name": "Co-op",
+                "crn": "31460",
+                "section": "A",
+                "folders": [
+                    "ASSIGNMENT"
+                ]
+            },
+            "MATH1005": {
+                "name": "Differential Equations",
+                "crn": "34802",
+                "section": "D",
+                "folders": [
+                    "INFO",
+                    "LECTURE",
+                    "REVIEW",
+                    "PRACTICE",
+                    "TEXTBOOK",
+                    "TUTORIAL"
+                ]
+            },
+            "SYSC2310": {
+                "name": "Digital Systems",
+                "crn": "35535",
+                "section": "B",
+                "folders": [
+                    "ASSIGNMENT",
+                    "INFO",
+                    "LAB",
+                    "LECTURE",
+                    "REVIEW",
+                    "TEXTBOOK",
+                    "WOOCLAP"
+                ]
+            },
+            "COMP1805": {
+                "name": "Discrete Structures I",
+                "crn": "31242",
+                "section": "A",
+                "folders": [
+                    "ASSIGNMENT",
+                    "INFO",
+                    "LECTURE",
+                    "REVIEW",
+                    "PASS",
+                    "PRACTICE",
+                    "TEXTBOOK",
+                    "TUTORIAL"
+                ]
+            },
+            "SYSC2006": {
+                "name": "Imperative Programming",
+                "crn": "35522",
+                "section": "A",
+                "folders": [
+                    "ASSIGNMENT",
+                    "INFO",
+                    "LAB",
+                    "LECTURE",
+                    "REVIEW",
+                    "PASS",
+                    "TEXTBOOK",
+                    "WOOCLAP"
+                ]
+            }
+        },
+        "WINTER": {
+            "SYSC2100": {
+                "name": "Algorithms and Data Structures",
+                "crn": "",
+                "section": "",
+                "folders": [
+                    "ASSIGNMENT",
+                    "INFO",
+                    "LAB",
+                    "LECTURE",
+                    "REVIEW"
+                ]
+            },
+            "CCDP2100": {
+                "name": "CCDP",
+                "crn": "",
+                "section": "",
+                "folders": [
+                    "ASSIGNMENT",
+                    "INFO",
+                    "LECTURE"
+                ]
+            },
+            "SYSC2320": {
+                "name": "Computer Architecture",
+                "crn": "",
+                "section": "",
+                "folders": [
+                    "INFO",
+                    "LAB",
+                    "LECTURE",
+                    "REVIEW"
+                ]
+            },
+            "COMP2804": {
+                "name": "Discrete Structures II",
+                "crn": "",
+                "section": "N/A",
+                "folders": [
+                    "ASSIGNMENT",
+                    "INFO",
+                    "LECTURE",
+                    "REVIEW"
+                ]
+            },
+            "SYSC2004": {
+                "name": "Object Oriented Software",
+                "crn": "",
+                "section": "",
+                "folders": [
+                    "ASSIGNMENT",
+                    "INFO",
+                    "LAB",
+                    "LECTURE",
+                    "REVIEW"
+                ]
+            }
+        }
+    },
+    "03_Third_Year": {
+        "FALL": {
+            "ECOR2050": {
+                "name": "Stats",
+                "crn": "",
+                "section": "",
+                "folders": [
+                    "ASSIGNMENT",
+                    "INFO",
+                    "LAB",
+                    "LECTURE",
+                    "REVIEW"
+                ]
+            },
+            "SYSC3110": {
+                "name": "Software Development",
+                "crn": "",
+                "section": "",
+                "folders": [
+                    "ASSIGNMENT",
+                    "INFO",
+                    "LAB",
+                    "LECTURE",
+                    "REVIEW"
+                ]
+            },
+            "SYSC3120": {
+                "name": "Requirements",
+                "crn": "",
+                "section": "",
+                "folders": [
+                    "ASSIGNMENT",
+                    "INFO",
+                    "LAB",
+                    "LECTURE",
+                    "REVIEW"
+                ]
+            },
+            "SYSC3310": {
+                "name": "Real-Time Systems",
+                "crn": "",
+                "section": "",
+                "folders": [
+                    "ASSIGNMENT",
+                    "INFO",
+                    "LAB",
+                    "LECTURE",
+                    "REVIEW"
+                ]
+            },
+            "SYSC4001": {
+                "name": "Operating Systems",
+                "crn": "",
+                "section": "",
+                "folders": [
+                    "ASSIGNMENT",
+                    "INFO",
+                    "LAB",
+                    "LECTURE",
+                    "REVIEW"
+                ]
+            }
+        }
+    }
+}

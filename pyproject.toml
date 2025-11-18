@@ -1,0 +1,11 @@
+[project]
+name = "filescripts"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "colorama>=0.4.6",
+    "customtkinter>=5.2.2",
+    "inquirerpy>=0.3.4",
+]
