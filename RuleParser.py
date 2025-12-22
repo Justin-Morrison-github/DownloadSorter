@@ -1,6 +1,4 @@
 import json
-from re import A
-
 from Rule import Rule
 from Keywords import *
 from RuleManager import RuleManager
@@ -27,12 +25,10 @@ class RuleParser:
 
     def _parse_rule(self, parent: Rule | None, rule_json: dict, name: str) -> Rule:
         tag = rule_json.get(TAG, "")
-        aliases = rule_json.get(ALIASES)
+        aliases = rule_json.get(ALIASES, [])
         path: str = rule_json.get(PATH, "")
-        method: str = rule_json.get(METHOD, "")
-        type: str = rule_json.get(TYPE, "")
-        rule = Rule(name, tag, type, path, aliases, method, parent=parent)
-        rule.resolve_path()
+        rule = Rule(name, tag, path, aliases, parent=parent)
+        # rule.resolve_placeholders()
 
         children = rule_json.get(CHILD_RULES)
         if children is not None:

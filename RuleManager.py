@@ -10,6 +10,10 @@ class RuleManager:
     def add(self, rule: Rule):
         self.rules.append(rule)
 
-    def apply(self, file: str):
+    def get_path(self, file: str) -> str | None:
+        best = None
         for rule in self.rules:
-            rule.apply(file)
+            path = rule.get_path(file)
+            if path is not None:
+                best = path
+        return best

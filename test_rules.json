@@ -1,0 +1,25 @@
+{
+    "$RULES": {
+        "Imperative Programming Files": {
+            "tag": "SYSC 2004",
+            "aliases": [
+                "SYSC2004",
+                "SYSC_2004"
+            ],
+            "path": "./path",
+            "$RULES": {
+                "Assignment Files": {
+                    "tag": "Assignment",
+                    "case-sensitive": false,
+                    "path": "$PARENT_PATH/$TAG",
+                    "$RULES": {
+                        "Assignment Number": {
+                            "tag": "$PARENT_TAG <N>",
+                            "path": "$PARENT_PATH/$PARENT_TAG <N>"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

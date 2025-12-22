@@ -1,18 +1,15 @@
+TAG = "tag"
+ALIASES = "aliases"
+PATH = "path"
+
+# Placeholders
 RULES = "$RULES"
 CHILD_RULES = "$RULES"
 SELF_RULES = "$RULES"
-ALIASES = "aliases"
 SELF_ALIASES = "$ALIASES"
-TAG = "tag"
 SELF_TAG = "$TAG"
 PARENT_TAG = "$PARENT_TAG"
 N_TAG = "${n}_TAG"
-PATH = "path"
 SELF_PATH = "$PATH"
 PARENT_PATH = "$PARENT_PATH"
 SELF_PARENT = "$PARENT"
-METHOD = "method"
-TYPE = "type"
-
-
-REGEX = "REGEX"

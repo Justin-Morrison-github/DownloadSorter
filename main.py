@@ -54,10 +54,8 @@ fileA = "SYSC 2004 Assignment 1.pdf"
 fileB = "SYSC_2004 Assignment 1.pdf"
 fileC = "SYSC2004 Assignment 1.pdf"
 
-parser = RuleParser("rules.json")
+parser = RuleParser("test_rules.json")
 
 
 rule_manager: RuleManager = parser.parse()
-rule_manager.apply(fileA)
-# for rule in rule_manager.rules:
-#     print(rule)
+rule_manager.get_path(fileB)
