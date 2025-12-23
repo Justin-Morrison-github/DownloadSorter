@@ -27,7 +27,7 @@ class Rule:
     def tag_templates_to_regex(self, templates: list[str]):
         """
         Converts a tag template like:
-        'Assignment <N>' → r'Assignment\s+(\d+)'
+        'Assignment <N>' → r'Assignment\\s+(\\d+)'
         """
         flags = 0 if self.case_sensitive else re.IGNORECASE
         patterns = []
@@ -114,7 +114,7 @@ class Rule:
         resolved_path = self.resolve_structural_placeholders()
         resolved_path = self.resolve_template(resolved_path)
 
-        print("CAPTURES:", self.captures)
-        print("PATH TEMPLATE:", self.path)
-        print(resolved_path)
+        # print("CAPTURES:", self.captures)
+        # print("PATH TEMPLATE:", self.path)
+        # print(resolved_path)
         return resolved_path

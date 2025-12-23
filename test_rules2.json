@@ -1,0 +1,55 @@
+{
+    "$RULES": {
+        "Programming": {
+            "tag": "SYSC 2004",
+            "aliases": [
+                "SYSC2004",
+                "SYSC_2004"
+            ],
+            "path": "./Programming",
+            "$RULES": {
+                "Assignments": {
+                    "tag": "Assignment",
+                    "path": "$PARENT_PATH/$TAG",
+                    "$RULES": {
+                        "Assignment Numbers": {
+                            "tag": "$PARENT_TAG <N>",
+                            "path": "$PARENT_PATH/$PARENT_TAG <N>"
+                        }
+                    }
+                },
+                "Lab Files": {
+                    "tag": "Lab",
+                    "path": "$PARENT_PATH/$TAG",
+                    "$RULES": {
+                        "Lab Number": {
+                            "case-sensitive": false,
+                            "tag": "$PARENT_TAG <N>",
+                            "path": "$PARENT_PATH/$PARENT_TAG <N>"
+                        }
+                    }
+                }
+            }
+        },
+        "Math Files": {
+            "tag": "MATH_1005",
+            "path": "./Math",
+            "$RULES": {
+                "Tests": {
+                    "tag": "Test",
+                    "path": "$PARENT_PATH/$TAG",
+                    "$RULES": {
+                        "Test Number": {
+                            "tag": "$PARENT_TAG <N>",
+                            "path": "$PARENT_PATH/$PARENT_TAG <N>"
+                        }
+                    }
+                },
+                "Review": {
+                    "tag": "REVIEW",
+                    "path": "$PARENT_PATH/$TAG"
+                }
+            }
+        }
+    }
+}
